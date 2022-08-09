@@ -1,0 +1,23 @@
+.footer {
+    @apply w-full;
+    
+    /* background-image: url('../../images/footer_bg.png'); */
+    background-color: #1F2630;
+    background-size: 100% 100%;
+
+    background-color: #1F2630;    
+}
+
+.footer_title {
+    @apply text-white text-xl font-bold;
+}
+
+.footer_text {
+    @apply text-white;
+}
+
+hr.solid {
+    height:3px;
+    border-width:0;
+    background:url('../../images/border_bottom.svg') bottom left no-repeat;
+}
